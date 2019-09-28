@@ -10,5 +10,7 @@ namespace Dick.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<Dick.Models.Clown> Clowns { get; set; }
     }
 }
